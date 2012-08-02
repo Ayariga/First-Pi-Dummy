@@ -6,7 +6,7 @@ import akka.util.duration._
 
 class PiMessage {
 
- 
+ //in the house
 sealed trait PiMessage
 case object Calculate extends PiMessage
 case class Work(start: Int, nrOfElements: Int) extends PiMessage
